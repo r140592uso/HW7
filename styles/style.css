@@ -1,0 +1,29 @@
+.posts {
+  background-color: darkcyan;
+  padding: 20px;
+  margin-bottom: 25px;
+  width: 100%;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  max-width: 2000px;
+  width: 100%;
+  height: 100%;
+  background-color: aquamarine;
+  display: none;
+}
+.overlay.activeoverlay {
+  display: block;
+}
+.close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: orange;
+  cursor: pointer;
+  font-size: 40px;
+}
